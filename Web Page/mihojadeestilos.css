@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*documento en css*/
+/*body{/*selector de etiqueta y modifica todas las etiquetas con el mismo nombre*/
+  /*  background-color:#00F;/*nomeclatura propiedad y valor y se puede poner color en ingles para básico*/ 
+/*}
+/*block ocupa el 100% del todo y usa un salto de linea. Por eso se ve como se ve y cada elemento lo tiene 
+al crear y no tener css*/
+#cabeceraweb{/*selector tipo id y se usa para aplicar apariencia a un solo elemento de tu pagina web*/
+   background-color:#00F;
+}
+
+#navegacionprincipal{
+	/*Cuando solo hay una etiqueta se recomienda usar un selector de etiqueta cuando hay solo una sino un id*/
+   background-color:#F00;
+}
+
+#barralateral{
+    background-color:#0F0;
+    float:left;/* float rompe el flujo de colocación de una pagina web y los elementos alrededor lo rodearan*/
+    height:960px;/*propiedad que nos da el alto a una pagina*/
+    }
+
+#contenidoprincipal{
+    background-color:#606;
+    margin-left:210px; 
+    /*margin nos define el espacio entre contenedores top:arriba,bottom:abajo,right:derecha y left:izquierda*/
+    /*Al tener float el elemento flota y se cuenta como si no estuviera, por eso el margin se cuenta desde ancho 
+    de la barra */
+    padding-left:15px;/*padding separacion entre contenido y contenedor*/
+    padding-top:15px;
+}
+
+#pieprincipal{
+    background-color:#FF0;
+    clear:both;/*clear rompe el funcionamiento del float del elemento y both que aplicas arriba y abajo*/
+    margin-top:15px;
+    }
+/*selectores de etiqueta: pones el nombre de la etiqueta,clase y id: Se usa # y nombre identificativo
+el que quieras se usa cuando se aplica apariencia a un unico elemento */
+li{
+    background-color:#FF0;
+    display:inline;/*propiedad inline */
+    /*ocupa la longitud del texto de li y esten en la misma linea*/
+}
