@@ -1,0 +1,106 @@
+<!DOCTYPE html><!--indica que es estandar html -->
+ <html lang="es">  <!-- --><!--lang atributo opcional que nos dice el lenguaje -->
+  
+  <head><!--etiqueta donde se incluye información importante y no se ve en la apgina web.Se incluyen hojas de estilo, archivos js externos, js internos , iconos , titulo y las etiquetas meta -->
+    <meta charset="iso-8559-1"/><!--sirve para posicionar paginas y la etiqueta especifica como se presentará la página, especifica caracteres a usar. Esta en especifico es en ingles y utf-8 es todos los idiomas-->
+    <meta name="description"content="Página de Html 5"/><!--describe la página-->
+    <meta name="keywords"content="html5,css3,javascript y diseño web"/><!--Se usa para poner palabras claves(ya no se usa mucho)-->
+    <title>Pagina de HTML 5</title><!--Nos dice el titulo de la pagina y sirve como frase de catehorizacion en el navegador --> 
+    <link rel="stylesheet" href="mihojadeestilos.css"/><!--Sirve para enlazar o incluir documentos adicionales relative/relacionado y href es la ruta-->
+
+   </head>
+
+  <body><!--Aqui va el cuerpo de la página web-->
+
+    <header id="cabeceraweb"><!--Etiqueta usado para titulo o información importante-->
+      <h1> Titulo de la p&aacute;gina web</h1><!--etiquetas h es el tamaño de letra, mientras menor numero mas importante la info(va de h1 a h6 y ayudar a posicionar en la busqueda web), tambien determinan jerarquia-->
+    </header> 
+
+    <nav id="navegacionprincipal"><!--Barra de navegacion-->
+      <ul><!--ul construyen listas desordenadas(puntos),ol es ordenada(numeros) y li es que tenga puntos (representa al item)-->
+        <li>&iquest;Quienes somos?</li>
+        <li>Productos</li>
+        <li>Cont&aacute;ctanos</li>
+        <li>Precios</li></ul>
+      </ul>
+    </nav>
+
+    <aside id="barralateral"><!--se usa para barra de vinculos o citas cortas-->
+     <blockquote>Primer elmento</blockquote><!--Se usa para citar otras fuentes o largas citas-->
+     <blockquote>Segundo elemento</blockquote>
+     <blockquote>Tercer elemento</blockquote>
+    </aside>
+
+    <section id="contenidoprincipal"><!--zona de contenido principal-->
+      <article><!--Agrupa contenido similar de cualquier tipo pero que tenga algo que ver-->
+       <header><!--header aqui le dice al navegador que es un titulo de x articulo-->
+         <hgroup><!-- sirve para agrupar un conjunto de encabezados(titulos y subtitulos) en un sólo bloque, solo es util si hay mas de 2 etiquetas h-->
+          <h2>T&iacute;tulo de  la noticia 1</h2>
+          <h3>Subt&iacute;tulo de la noticia 1</h3><!--agrupa titulos y subtitulos si es h y omite usar h1 -->
+         </hgroup>
+       </header> 
+       <figure><!--Sirve para insertar elementos independientes del contenido(imagenes,audios,figuras y videos) -->
+         <img src="imagenes/Imagen_de_prueba.png"/><!-- en img/source src es una ruta relativa y sirve pa poner imagenes(jpg,png hya dos tipos 8 y 16 hace que
+           dependan los tipos de colores/admiten transparencia  y gif formatos reducidos y poco color),videos,audios,etc...-->
+        <figcaption><!--pie de imagen-->
+          Esta es una imagen de pensamiento
+        </figcaption>
+       </figure>
+       <p><mark>Noticia 1</mark></p><!--define un parrafo y mark resalta un texto dependiendo la acción que realize un usuario como una busqueda-->
+       <p><em>Seguimos hablando de Noticia 1</em></p><!--em sirve para enfatizar el texto, lo pone en cursiva, reemplaza a i y sirve para sentido semántico-->
+       <p><strong>Terminamos de hablar de la Noticia 1</strong></p><!--strong marca texto importante(texto en negrita) y sustituye la etiqueta b -->
+       <footer><!--header aqui le dice al navegador que es un pie de x articulo-->
+         <p>Comentarios de usuarios</p>
+       </footer>
+      </article>
+      <article>
+       <header>
+         <hgroup>
+          <h2>T&iacute;tulo de  la noticia 2</h2>
+          <h3>Subt&iacute;tulo de la noticia 2</h3>
+         </hgroup>
+        </header> 
+       <p><cite>Liga de la Justicia:Snyder Cut</cite></p><!--Sirve para resaltar titulos de trabajos libros,canciones etc..--->
+       <p>Es la version que Snyder Cut tenia planeada para <cite>la liga de justicia del 2017</cite></p>
+       <p>Terminamos de hablar de la Noticia 2</p>
+       <footer>
+         <p>Comentarios de usuarios</p>
+       </footer>
+      </article>
+      <article>
+       <header>
+         <hgroup>
+          <h2>T&iacute;tulo de  la noticia 3</h2>
+          <h3>Subt&iacute;tulo de la noticia 3</h3>
+          <time datetime="2021/07/25" pubupdate>Noticia publicada el dia 25/07/2021</time><!--time representa fechas y horas, datetime fecha y hora que se hace refrencia año/mes/dia pubupdate -->
+         </hgroup>
+        </header>
+       <p>Noticia 3</p>
+       <p>Seguimos hablando de Noticia 3</p>
+       <p>Terminamos de hablar de la Noticia 3</p>
+       <footer>
+         <p>Comentarios de usuarios</p>
+       </footer>
+      </article>
+    </section>
+
+    <footer id="pieprincipal"><!--pie de pagina-->
+      <small>Derechos Reservados. </small><!-- Small sirve para presentar terminos legales-->
+      <address>Telefono:231 257 2322</address><!--Sirve para meter informacion del usuario o contacto y block level(etiqueta que lleva salto de linea en both sizes) -->
+    </footer>
+    
+  </body>
+
+ </html>
+ <!--
+  <!DOCTYPE html>
+<html lang="es">
+  <head> 
+    <meta charset="utf-8"/>
+    <meta name="description"content="Página de pruebas de css3"/>
+    <title>CSS3 y reglas</title>   
+  </head>
+  <body>
+  </body>
+</html>
+etiquetas principales--> 
